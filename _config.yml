@@ -1,12 +1,16 @@
+# dependencies
+markdown:           kramdown
+highlighter:        pygments
+
 # Permalinks
 permalink:           
 
 # Setup
-title:               
-tagline:             
-url:                 
-paginate:            
-baseurl:             
+title:              Jeff Hinzmann           
+tagline:            'About Me'       
+url:                https://github.com/jahinzmann/jahinzmann.github.io       
+paginate:           5   
+baseurl:            /      
 
 # Assets
 #
@@ -16,14 +20,14 @@ sass:
   style:            :compressed
 
 # About/contact
-author:
-  name:              
-  url:               
-  email:             
+author: 
+  name:             Jeff Hinzmann            
+  url:              https://github.com/jahinzmann/jahinzmann.github.io       
+  email:            JAHinzmann@gmail.com           
 
 # Custom vars
 version:             2.0.0
-github:
+github:             https://github.com/jahinzmann
   repo:             
 
 # Gems
