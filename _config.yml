@@ -1,6 +1,6 @@
-# dependencies
-markdown:           kramdown
-highlighter:        pygments
+# # dependencies
+# markdown:           kramdown
+# highlighter:        pygments
 
 # Permalinks
 permalink:           
@@ -27,10 +27,10 @@ author:
 
 # Custom vars
 version:             2.0.0
-github:             https://github.com/jahinzmann
-  repo:             
+# github:             https://github.com/jahinzmann
+  # repo:             https://github.com/jahinzmann/jahinzmann.github.io  
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist

@@ -1,0 +1,25 @@
+<div class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+            <div style="display: flex; align-items: center; height:100px; width: auto;">
+                <img id="avatar" src="/images/ThatsWhatSheSaid.jpg" alt="avatar" >
+            </div>
+            <h1 style="clear: both;">
+                <a id="siteNameTitle" href="https://jahinzmann.github.io/about/">
+            {{ site.title }}
+          </a>
+            </h1>
+            <p style="clear: both;" class="lead" id="site_description">{{ site.description }}</p>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}"><span> HOME</span></a> {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter.
+            {% endcomment %} {% assign pages_list = site.pages %} {% for node in pages_list %} {% if node.title != null %} {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}"> {{ node.title }}</a> {% endif %} {% endif %} {% endfor %}
+
+            <a class="sidebar-nav-item" href="/Jeffrey_Hinzmann_resume.pdf" download> download résumé</a>
+            <a class="sidebar-nav-item" href="{{ site.github.repo }}"><span id="GitHub_repo"> (visit this site’s GitHub repository)</span></a>
+        </nav>
+
+    </div>
+</div>
