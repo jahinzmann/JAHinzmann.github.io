@@ -16,13 +16,14 @@ Welcome to this *[GitHub Pages](https://pages.github.com/)* (powered by [Jekyll]
      <ul>
         <li>html</li>
         <li>CSS</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>NodeJS</li>
+        <li>Express</li>
+        <li>mySQL</li>
+        <li>React</li>
+        <li>Angular</li>
+        <li>Wordpress</li>
     </ul>
 </div>
 <div class="col-xs-12 col-md-8">
@@ -40,7 +41,7 @@ Welcome to this *[GitHub Pages](https://pages.github.com/)* (powered by [Jekyll]
     <li>Foreign Languages (Spanish and German)</li>
     <li>Literature</li>
     <li>Film</li>
-    <li>Autism/Asperger's Issues Advocacy</li>
+    <li>Autism/Asperger's Issues and Advocacy</li>
 </ul>
 
 </div>
