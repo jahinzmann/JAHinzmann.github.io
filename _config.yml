@@ -1,6 +1,8 @@
+theme:                jekyll-theme-cayman
 # # dependencies
 # markdown:           kramdown
 # highlighter:        pygments
+
 
 # Permalinks
 permalink:           
@@ -8,16 +10,15 @@ permalink:
 # Setup
 title:              Jeff Hinzmann           
 tagline:            'About Me'       
-url:                https://github.com/jahinzmann/jahinzmann.github.io       
-paginate:           5   
+url:                https://github.com/jahinzmann/jahinzmann.github.io        
 baseurl:            /      
 
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+sass_dir:           _sass
+style:              :compressed
 
 # About/contact
 author: 
@@ -27,8 +28,8 @@ author:
 
 # Custom vars
 version:             2.0.0
-# github:             https://github.com/jahinzmann
-  # repo:             https://github.com/jahinzmann/jahinzmann.github.io  
+# github:            https://github.com/jahinzmann
+  # repo:            https://github.com/jahinzmann/jahinzmann.github.io  
 
 # Gems
 plugins:
