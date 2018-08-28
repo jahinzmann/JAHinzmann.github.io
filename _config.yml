@@ -1,8 +1,9 @@
 <<<<<<< HEAD
-theme:                jekyll-theme-cayman
+
 # # dependencies
-# markdown:           kramdown
-# highlighter:        pygments
+markdown:           kramdown
+highlighter:        pygments
+theme:                jekyll-theme-cayman
 
 
 # Permalinks
