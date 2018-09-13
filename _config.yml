@@ -1,18 +1,16 @@
-<<<<<<< HEAD
-
-# # dependencies
+# dependencies
 markdown:           kramdown
 highlighter:        pygments
-theme:                jekyll-theme-cayman
+theme:              jekyll-theme-cayman
 
 
 # Permalinks
-permalink:           
+permalink:           pretty
 
 # Setup
 title:              Jeff Hinzmann           
-tagline:            'About Me'       
-url:                https://github.com/jahinzmann/jahinzmann.github.io        
+tagline:            'Developer Portfolio'       
+url:                https://jahinzmann.github.io        
 baseurl:            /      
 
 # Assets
@@ -23,9 +21,9 @@ sass_dir:           _sass
 style:              :compressed
 
 # About/contact
-author: 
+author:         
   name:             Jeff Hinzmann            
-  url:              https://github.com/jahinzmann/jahinzmann.github.io       
+  url:              https://jahinzmann.github.io       
   email:            JAHinzmann@gmail.com           
 
 # Custom vars
@@ -34,9 +32,9 @@ version:             2.0.0
   # repo:            https://github.com/jahinzmann/jahinzmann.github.io  
 
 # Gems
-plugins:
-  - jekyll-paginate
-  - jekyll-gist
-=======
-theme: jekyll-theme-cayman
+# plugins:
+#  - jekyll-paginate
+#  - jekyll-gist
+
+# theme: jekyll-theme-cayman
 
